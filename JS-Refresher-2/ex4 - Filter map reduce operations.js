@@ -15,7 +15,7 @@ function squareNumbers(arr) {
 // Function to compute the sum of array elements
 // You need to use the array.reduce() function
 function sumArray(arr) {
-  return arr.reduce((acc, curr) => acc + curr);
+  return arr.reduce((number1, number2) => number1 + number2);
 //  TODO - Your code here (1 line)
 }
 console.log("Even numbers:", filterEvenNumbers(numbers)); // [2, 4]

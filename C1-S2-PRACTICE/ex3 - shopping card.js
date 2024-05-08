@@ -65,7 +65,7 @@ function addProductToCart(productId) {
  */
 function removeProductFromCart(productId) {
   // Write your code here
-  const index = SHOPPING_CART.findIndex(item => item.id === productId);
+  const index = SHOPPING_CART.findIndex((item) => item.id === productId);
   if (index !== -1) {
     if (SHOPPING_CART[index].quantity > 1) {
       SHOPPING_CART[index].quantity--;

@@ -10,15 +10,17 @@
  * @param {array} listOfNumbers - a list of numbers
  * @returns a  list of objects
  */
+
 function transformToObjects(listOfNumbers) {
-   // Write your code here
-  let result = [];
-  for (let index = 0; index < listOfNumbers.length; index++) {
-    let obj = { val: listOfNumbers[index] };
-    result.push(obj);
-  }
-  return result;
+  // Write your code here
+ let result = [];
+ for (let index = 0; index < listOfNumbers.length; index++) {
+   let obj = { val: listOfNumbers[index] };
+   result.push(obj);
+ }
+ return result;
 }
+
 
 //Return the new array
 // Test
